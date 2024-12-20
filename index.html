@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADFGVX</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Шифр ADFGVX</h1>
+        <form id="ADFGVXForm">
+            <label for="text">Введите текст:</label>
+            <textarea id="text" rows="4" required></textarea>
+
+            <label for="key">Введите ключ-слово:</label>
+            <input type="text" id="key" required>
+
+            <button type="button" id="encryptButton">Зашифровать текст</button>
+            <button type="button" id="decryptButton">Дешифровать текст</button>
+
+            <label for="result">Результат:</label>
+            <textarea id="result" rows="4" readonly></textarea>
+        </form>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
